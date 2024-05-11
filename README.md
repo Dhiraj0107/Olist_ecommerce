@@ -92,7 +92,41 @@ After creating the external table for factOlist, the data was segregated into mu
 
 ![WhatsApp Image 2024-05-10 at 22 38 59_8aaaf7f6](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/bda30923-7e73-47bb-bbe7-bfa8de1ca547)
 
+#### DAX used for the above dashboard:
+
+##### These are used in the factOlist table to fetch the data from their respective sources into factOlist table
+
+product_id = 
+var productnamelength = factOlist[product_name_length]
+var prodid = CALCULATE(MAX(products[product_id]),products[product_name_length]= productnamelength)
+return prodid
+
+order_id = 
+var paymentvalue = factOlist[payment_value]
+var ordeid = CALCULATE(MAX(order_payments[order_id]),order_payments[payment_value]= paymentvalue)
+return ordeid
+
+review_id = 
+var reviewscore = factOlist[review_score]
+var reviewid = CALCULATE(MAX(order_reviews[review_id]),order_reviews[review_score]= reviewscore)
+return reviewid
+
+##### This is used to get the total number of customers(column added in the customer table)
+
+Customer Count = DISTINCTCOUNT(customers[customer_id])
+
+##### This is used to get the average delivery time which is calculated by subtracting the delivered timestamp from the purchased timestamp and dividing this by 24 to get the difference in days and taking their average
+
+Avg Delivery Time = 
+AVERAGEX(
+    FILTER(
+        'orders',
+        NOT(ISBLANK('orders'[order_delivered_customer_date]) && NOT(ISBLANK(orders[order_purchase_timestamp])))
+    ),
+    (orders[order_delivered_customer_date] - orders[order_purchase_timestamp])/24
+)
 
 
+#### Results Found
 
 
