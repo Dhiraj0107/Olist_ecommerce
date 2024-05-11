@@ -1,0 +1,56 @@
+These are used in the factOlist table to fetch the data from their respective sources into factOlist table:
+
+product_id = 
+var productnamelength = factOlist[product_name_length]
+var prodid = CALCULATE(MAX(products[product_id]),products[product_name_length]= productnamelength)
+return prodid
+
+order_id = 
+var paymentvalue = factOlist[payment_value]
+var ordeid = CALCULATE(MAX(order_payments[order_id]),order_payments[payment_value]= paymentvalue)
+return ordeid
+
+review_id = 
+var reviewscore = factOlist[review_score]
+var reviewid = CALCULATE(MAX(order_reviews[review_id]),order_reviews[review_score]= reviewscore)
+return reviewid
+
+
+
+
+
+This is used to get the total number of customers(column added in the customer table):
+
+Customer Count = DISTINCTCOUNT(customers[customer_id])
+
+
+
+
+
+This is used to get the average delivery time which is calculated by subtracting the delivered timestamp from the purchased timestamp and dividing this by 24 to get the difference in days and taking their average:
+
+Avg Delivery Time = 
+AVERAGEX(
+    FILTER(
+        'orders',
+        NOT(ISBLANK('orders'[order_delivered_customer_date]) && NOT(ISBLANK(orders[order_purchase_timestamp])))
+    ),
+    (orders[order_delivered_customer_date] - orders[order_purchase_timestamp])/24
+)
+
+
+
+
+
+Added one line(Line starting with geolocation_city) to the Advanced Query Editor(M Language) for geolocation table to standardize the data(by change encoding):
+
+let
+    Source = Csv.Document(File.Contents("C:\Users\Dhiraj\Downloads\My Projects\Azure and Databricks\Copy of data-after-etl\geolocation\part-00000-tid-6291182367145135655-53e1eb31-bbc6-4585-b38f-b4445cff645b-277-1-c000 (1).csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"geolocation_zip_code_prefix", Int64.Type}, {"geolocation_lat", type number}, {"geolocation_lng", type number}, {"geolocation_city", type text}, {"geolocation_state", type text}}),
+    geolocation_city= Table.AddColumn(Source, "geolocation_city_cleaned", each Text.FromBinary(Text.ToBinary([Column4], 1251), TextEncoding.Ascii)),
+    #"Promoted Headers1" = Table.PromoteHeaders(geolocation_city, [PromoteAllScalars=true]),
+    #"Changed Type1" = Table.TransformColumnTypes(#"Promoted Headers1",{{"geolocation_zip_code_prefix", Int64.Type}, {"geolocation_lat", type number}, {"geolocation_lng", type number}, {"geolocation_city", type text}, {"geolocation_state", type text}, {"geolocation_city_1", type text}}),
+    #"Renamed Columns" = Table.RenameColumns(#"Changed Type1",{{"geolocation_city_1", "geolocation_city_cleaned"}})
+in
+    #"Renamed Columns"
