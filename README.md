@@ -4,4 +4,12 @@ This project is a comprehensive end-to-end data engineering solution deployed in
 
 #### Data Source: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
+#### Created storage account to create containers to store data
+
+![image](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/bf13335b-4420-4187-9c65-e74e982bce0a)
+
+#### Created container and folders inside it to store files after each stage
+
+![image](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/e8772eda-7300-42b1-b827-9d0a408b0be0)
+
 #### 
