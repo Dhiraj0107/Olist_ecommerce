@@ -64,6 +64,34 @@ This project is a comprehensive end-to-end data engineering solution deployed in
 
 ![WhatsApp Image 2024-05-01 at 19 00 58_36d84cf2](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/812ff48b-643a-40f0-a95f-e190637cf1f5)
 
+#### Next, created external tables for all dimension tables and using those created external fact table (Full Queries present in Queries.sql)
+
+![WhatsApp Image 2024-05-04 at 22 37 47_604cfe05](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/5a7b5aaa-bc15-40dd-a0c8-bddc246ba2ea)
+
+![WhatsApp Image 2024-05-04 at 22 48 48_9adf0fa4](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/a916b960-15b0-42f0-8093-cf9fc191cc44)
+
+![WhatsApp Image 2024-05-05 at 12 16 59_d9929436](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/5d9b08b3-9ced-4d2f-a771-bb30fc736fc6)
+
+![WhatsApp Image 2024-05-05 at 14 13 50_6944f368](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/e9dd382a-afac-4c20-aac3-5140564c8246)
+
+![WhatsApp Image 2024-05-05 at 14 21 47_ed35291c](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/9fda6d6d-f456-477f-8893-95460b48e5ea)
+
+![WhatsApp Image 2024-05-05 at 14 36 09_6ae19fa8](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/8c47b551-bdea-4e45-8512-29730de4cb83)
+
+![WhatsApp Image 2024-05-05 at 14 49 56_14d3d6d0](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/71993161-2b5d-463e-a5e3-9663ab75da5e)
+
+![WhatsApp Image 2024-05-05 at 14 57 59_c2ba1e0b](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/3f54517c-a495-40c2-a1b9-eb737d530ddd)
+
+![WhatsApp Image 2024-05-05 at 15 05 31_8e064cc4](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/2b66c1f9-a6ae-4266-88c4-37f2e215b0ad)
+
+![WhatsApp Image 2024-05-05 at 16 58 04_f63d1bd1](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/6c053bde-99ae-450c-bed3-48e00021c12f)
+
+
+
+
+
+
+
 
 
 
