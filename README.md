@@ -10,6 +10,9 @@ This project is a comprehensive end-to-end data engineering solution deployed in
 
 #### Created container and folders inside it to store files after each stage
 
+- raw_data folder was created to add the raw data files from local system which was done by connecting to Azure Data Lake Gen 2 storage using Python (Azure_Data_Engineering_Project.ipynb).
+- data-after-etl was created to store the files after ETL using PySpark on Databricks.
+- data-after-etl-sql-database was created to store the files after creating external tables to access data in dimension tables and using these created external fact tables with data in this folder.
+
 ![image](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/e8772eda-7300-42b1-b827-9d0a408b0be0)
 
-#### 
