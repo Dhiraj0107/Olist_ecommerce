@@ -88,8 +88,9 @@ This project is a comprehensive end-to-end data engineering solution deployed in
 
 After creating the external table for factOlist, the data was segregated into multiple files so in order to make it easily reusable in Power BI I have consolidated all the data into a single file using Python (Consolidate_factOlist_Files.ipynb).
 
+#### After this, I made a dashboard in Power BI
 
-
+![WhatsApp Image 2024-05-10 at 22 38 59_8aaaf7f6](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/bda30923-7e73-47bb-bbe7-bfa8de1ca547)
 
 
 
