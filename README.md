@@ -28,9 +28,35 @@ This project is a comprehensive end-to-end data engineering solution deployed in
 
 ![WhatsApp Image 2024-04-29 at 22 36 06_90a81e8e](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/b49f347b-38bc-4d09-8948-a1852feec8b1)
 
-#### View the mount points
+#### Viewed the mount points
 
 ![WhatsApp Image 2024-04-29 at 22 36 40_3abec670](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/8ab062f2-dcf8-43a3-bb2e-66d3f50f6753)
 
-#### 
+#### Loaded and cleaned the data
+
+![WhatsApp Image 2024-05-01 at 17 56 03_952b4b90](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/eaee9a74-7d0e-49e5-a8ae-04e4582a6aae)
+
+![WhatsApp Image 2024-05-01 at 17 58 00_60115df5](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/83e99362-10b2-45f0-9aa6-794f3c753e65)
+
+![WhatsApp Image 2024-05-01 at 17 59 11_cf037b56](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/e74a40d5-ac67-4259-9afc-830f35a642dd)
+
+![WhatsApp Image 2024-05-01 at 18 19 23_7557d0f7](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/388fea18-331d-4bff-a767-152b02e36994)
+
+![WhatsApp Image 2024-05-01 at 18 23 17_5cdb055b](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/7253b8f2-caaa-4cc2-88b0-b58d565c16a8)
+
+![WhatsApp Image 2024-05-01 at 18 24 36_310a6c89](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/32de6005-44fe-453a-998e-749a5d618fd2)
+
+![WhatsApp Image 2024-05-01 at 18 25 45_b4125847](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/6dc43bc6-4af0-4620-9d98-41e0f64af95d)
+
+![WhatsApp Image 2024-05-01 at 18 26 38_59d6285b](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/b6e39c6a-642e-4a50-b7ce-ff317b7f0098)
+
+
+
+
+
+
+
+
+
+
 
