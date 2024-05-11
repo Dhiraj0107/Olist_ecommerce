@@ -92,7 +92,7 @@ After creating the external table for factOlist, the data was segregated into mu
 
 ![WhatsApp Image 2024-05-10 at 22 38 59_8aaaf7f6](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/bda30923-7e73-47bb-bbe7-bfa8de1ca547)
 
-DAX and M Language code used for the above dashboard is present in the "Power BI codes.txt" file
+DAX and M Language code used for the above dashboard is present in the "Power BI codes.txt" file.
 
 #### Results Found
 
