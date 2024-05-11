@@ -50,11 +50,19 @@ This project is a comprehensive end-to-end data engineering solution deployed in
 
 ![WhatsApp Image 2024-05-01 at 18 26 38_59d6285b](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/b6e39c6a-642e-4a50-b7ce-ff317b7f0098)
 
+![WhatsApp Image 2024-05-01 at 18 27 24_1c6a11d5](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/c6897a0c-b7fd-4412-8e75-aefd75fff543)
 
+![WhatsApp Image 2024-05-01 at 18 28 25_5a17ffe6](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/c63f3640-59c4-4d93-aaea-153c886eba1c)
 
+![WhatsApp Image 2024-05-01 at 18 30 57_6f3ba017](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/b6eb1738-94b9-4e0f-976c-3f450ede2aaa)
 
+![WhatsApp Image 2024-05-01 at 18 31 35_64b8054b](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/28209087-40bf-49a5-ae42-f2f56f5db956)
 
+![WhatsApp Image 2024-05-01 at 23 34 42_9074f079](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/abe24ec7-0183-43d1-a8c0-3513f36f7f9d)
 
+#### Loaded the cleaned tables back to Azure Data Lake Gen 2
+
+![WhatsApp Image 2024-05-01 at 19 00 58_36d84cf2](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/812ff48b-643a-40f0-a95f-e190637cf1f5)
 
 
 
