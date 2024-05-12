@@ -92,7 +92,7 @@ After creating the external table for factOlist, the data was segregated into mu
 
 #### After this, I made a dashboard in Power BI
 
-![WhatsApp Image 2024-05-10 at 22 38 59_8aaaf7f6](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/bda30923-7e73-47bb-bbe7-bfa8de1ca547)
+![image](https://github.com/Dhiraj0107/Olist_ecommerce/assets/118677714/78816b0d-2a20-4e0b-9011-a91cee71a017)
 
 DAX and M Language code used for the above dashboard is present in the "Power BI codes.txt" file.
 
