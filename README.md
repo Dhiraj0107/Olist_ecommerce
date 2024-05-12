@@ -120,11 +120,10 @@ To request access to the Power BI dashboard file, please feel free to reach out 
 
 ## Acknowledgments and Lessons Learned
 
-During the development of this project, I encountered challenges and made mistakes, one of which was not adding a primary key column in the payments table. Unfortunately, due to exceeding cost limits, I'm unable to make corrections without incurring additional costs.
+During the development of this project, I encountered challenges and made mistakes, one of which was not adding a primary key column in the payments table.
 
-### Lessons Learned:
+### Lesson Learned:
 
 - **Always Double-Check Changes:** Take the time to thoroughly review any changes before implementation to avoid oversights.
-- **Cost Considerations:** Be mindful of Azure service limits and associated costs, especially when dealing with large datasets.
 
 While this mistake has its limitations in correction, it serves as a valuable learning experience for future projects.
