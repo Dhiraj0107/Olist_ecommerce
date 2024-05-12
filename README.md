@@ -120,7 +120,7 @@ To request access to the Power BI dashboard file, please feel free to reach out 
 
 ## Acknowledgments and Lessons Learned
 
-During the development of this project, I encountered challenges and made mistakes, one of which was not adding a primary key column in the payments table.
+During the development of this project, I encountered challenges and made mistakes, one of which was not adding a primary key column in the payments table. Also, I have dropped the review_comment_title and review_comment_message columns from the order_reviews table as they were not used anywhere in the dashboard.
 
 ### Lesson Learned:
 
