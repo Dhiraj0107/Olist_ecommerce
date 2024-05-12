@@ -96,3 +96,4 @@ After creating the external table for factOlist, the data was segregated into mu
 
 DAX and M Language code used for the above dashboard is present in the "Power BI codes.txt" file.
 
+To request access to the Power BI dashboard file, please feel free to reach out to me via dhiraj0107@gmail.com or (https://www.linkedin.com/in/dhiraj-lala-3987b9147/), and I will be happy to provide you with the file promptly.
