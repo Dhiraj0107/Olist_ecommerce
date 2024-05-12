@@ -42,7 +42,7 @@ AVERAGEX(
 
 
 
-Added one line(Line starting with geolocation_city) to the Advanced Query Editor(M Language) for geolocation table to standardize the data(by change encoding):
+Added one line(Line starting with geolocation_city) to the Advanced Query Editor(M Language) for the geolocation table to standardize the data(by changing encoding):
 
 let
     Source = Csv.Document(File.Contents("C:\Users\Dhiraj\Downloads\My Projects\Azure and Databricks\Copy of data-after-etl\geolocation\part-00000-tid-6291182367145135655-53e1eb31-bbc6-4585-b38f-b4445cff645b-277-1-c000 (1).csv"),[Delimiter=",", Columns=5, Encoding=65001, QuoteStyle=QuoteStyle.None]),
