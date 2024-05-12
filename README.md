@@ -97,3 +97,34 @@ After creating the external table for factOlist, the data was segregated into mu
 DAX and M Language code used for the above dashboard is present in the "Power BI codes.txt" file.
 
 To request access to the Power BI dashboard file, please feel free to reach out to me via dhiraj0107@gmail.com or (https://www.linkedin.com/in/dhiraj-lala-3987b9147/), and I will be happy to provide you with the file promptly.
+
+
+## Technologies used:
+
+### Azure Services:
+
+- Azure Blob Storage
+- Azure Data Lake Gen 2
+- Azure Databricks
+- Azure Synapse Analytics
+
+### Python Libraries:
+
+- azure-storage-blob
+- PySpark
+
+### Data Visualization:
+
+- Power BI
+
+
+## Acknowledgments and Lessons Learned
+
+During the development of this project, I encountered challenges and made mistakes, one of which was not adding a primary key column in the payments table. Unfortunately, due to exceeding cost limits, I'm unable to make corrections without incurring additional costs.
+
+### Lessons Learned:
+
+- **Always Double-Check Changes:** Take the time to thoroughly review any changes before implementation to avoid oversights.
+- **Cost Considerations:** Be mindful of Azure service limits and associated costs, especially when dealing with large datasets.
+
+While this mistake has its limitations in correction, it serves as a valuable learning experience for future projects.
